@@ -1,9 +1,9 @@
 
 
 
-// document.addEventListener("contextmenu", (e) => {
-//     e.preventDefault();                                 //   cannot inspect or right click on this page 
-// });
+document.addEventListener("contextmenu", (e) => {
+    e.preventDefault();                                 //   cannot inspect or right click on this page 
+});
 
 
 let deviceWidth = window.innerWidth;
