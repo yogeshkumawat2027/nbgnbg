@@ -192,7 +192,7 @@ if(deviceWidth>1200){
             const fullscreenButton = document.getElementById("fullscreenButton");   //start button work like as fullscreen also
             fullscreenButton.style.display = "block"; // Display the button
             fullscreenButton.onclick = () => {
-                document.getElementById("startSound").play();
+                //document.getElementById("startSound").play();
                 setTimeout(()=>{
                     diceActivate1();      //dice1 button activate  
                     diceDisActivate2();    //dice2 disactivate
@@ -200,7 +200,7 @@ if(deviceWidth>1200){
                     diceBox2.style.display = '';
                     restart.style.display = "flex";
                     about.style.display = "flex";
-                },5000);      
+                },1000);      
                 document.querySelector("body").style.overflow = "hidden";
                 fullscreenButton.style.display = "none";
                 fullscreenButton.style.zIndex = '1';
